@@ -1,6 +1,6 @@
 package onboarding;
 
-import java.util.*;
+import java.util.List;
 
 class Problem1 {
     public static int solution(List<Integer> pobi, List<Integer> crong) {
@@ -23,9 +23,6 @@ class Problem1 {
         }
         else if(pobiNum < crongNum) {
             answer =  2;
-        }
-        else if(pobiNum == crongNum) {
-            answer =  0;
         }
 
         if((Integer.parseInt(pobiArr[0]) != Integer.parseInt(pobiArr[1])-1)
