@@ -1,19 +1,33 @@
 package onboarding;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.regex.Pattern;
+import java.util.regex.Matcher;
 
 public class Problem2 {
+    /*
+     * 📚 기능 목록
+     * 1. 중복된 문자가 있는지 확인
+     * 2. 중복 문자 제거
+     */
     public static String solution(String cryptogram) {
-        // 처음부터 끝까지 연속된 2개의 문자가 있는지 체크 후, 있다면 둘 다 제거
-        // 연속된 문자가 없을 때까지 위 과정 반복
-        return removeAll(cryptogram);
+        String answer = cryptogram;
+        answer = removeAll(cryptogram);
+        return answer;
     }
 
     public static String removeAll(String s) {
-        List<String> list = new ArrayList<>(Arrays.asList(s.split("")));
+        String result = s.replaceAll("(\\w)\\1+", "");
 
+        if(checkDuplicate(s)) {
+            result = removeAll(s);
+        }
+        return result;
+    }
 
+    public static boolean checkDuplicate(String cryptogram) {
+        Pattern pattern = Pattern.compile("(\\w)\\1+");
+        Matcher matcher = pattern.matcher(cryptogram);
+
+        return matcher.find();
     }
 }
