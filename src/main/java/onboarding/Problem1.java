@@ -3,10 +3,11 @@ package onboarding;
 import java.util.List;
 
 class Problem1 {
+    /*
+    * 1. 주어진 페이지의 유효성을 검증하는 기능
+    * 2. 두 수의 합과 곱을 구해 가장 큰 수를 구하는 기능
+    */
     public static int solution(List<Integer> pobi, List<Integer> crong) {
-        // 각 자리의 수를 더하거나 곱했을 때, 가장 큰 수
-        // 포비가 크면 1, 크롱이 크면 2, 같으면 0, 예외 -1
-
         String[] pobiArr = new String[2];
         pobiArr[0] = String.valueOf(pobi.get(0));
         pobiArr[1] = String.valueOf(pobi.get(1));
