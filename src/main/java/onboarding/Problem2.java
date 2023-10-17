@@ -18,8 +18,8 @@ public class Problem2 {
     public static String removeAll(String s) {
         String result = s.replaceAll("(\\w)\\1+", "");
 
-        if(checkDuplicate(s)) {
-            result = removeAll(s);
+        if(checkDuplicate(result)) {
+            return removeAll(result);
         }
         return result;
     }
