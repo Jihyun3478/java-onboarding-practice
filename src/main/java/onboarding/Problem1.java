@@ -5,8 +5,8 @@ import java.util.List;
 class Problem1 {
     /*
     * 📚 기능 목록
-    * 1. 주어진 페이지의 유효성을 검증하는 기능
-    * 2. 두 수의 합과 곱을 구해 가장 큰 수를 구하는 기능
+    * 1. 두 수의 합과 곱을 구해 가장 큰 수를 구하는 기능
+    * 2. 주어진 페이지의 유효성을 검증하는 기능
     */
     public static int solution(List<Integer> pobi, List<Integer> crong) {
         String[] pobiArr = new String[2];
