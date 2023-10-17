@@ -6,8 +6,8 @@ import java.util.regex.Matcher;
 public class Problem2 {
     /*
      * 📚 기능 목록
-     * 1. 중복된 문자가 있는지 확인
-     * 2. 중복 문자 제거
+     * 1. 중복된 문자가 있는지 확인하는 기능
+     * 2. 중복 문자를 제거하는 기능
      */
     public static String solution(String cryptogram) {
         String answer = cryptogram;
