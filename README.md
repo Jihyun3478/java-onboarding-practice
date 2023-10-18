@@ -8,5 +8,3 @@
 | Problem 3 | [링크](https://github.com/Jihyun3478/java-onboarding-practice/blob/Jihyun3478/src/main/java/onboarding/Problem3.java) |
 | Problem 4 | [링크](https://github.com/Jihyun3478/java-onboarding-practice/blob/Jihyun3478/src/main/java/onboarding/Problem4.java) |
 | Problem 5 | [링크](https://github.com/Jihyun3478/java-onboarding-practice/blob/Jihyun3478/src/main/java/onboarding/Problem5.java) |
-| Problem 6 | [링크](https://github.com/Jihyun3478/java-onboarding-practice/blob/Jihyun3478/src/main/java/onboarding/Problem6.java) |
-| Problem 7 | [링크](https://github.com/Jihyun3478/java-onboarding-practice/blob/Jihyun3478/src/main/java/onboarding/Problem7.java) |
