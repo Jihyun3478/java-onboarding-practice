@@ -11,9 +11,9 @@ public class Problem3 {
         int answer = 0;
 
         for(int i = 1; i <= number; i++) {
-            String str = String.valueOf(i);
-            str = str.replaceAll("([^3|6|9])", "");
-            answer += str.length();
+            String string = String.valueOf(i);
+            string = string.replaceAll("([^3|6|9])", "");
+            answer += string.length();
         }
         return answer;
     }
